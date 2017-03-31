@@ -1,22 +1,22 @@
-package scenarios
+// package scenarios
 
-import org.specs2.mutable.Specification
-import org.specs2.mock.Mockito
-import play.api.test.{ FakeApplication, PlaySpecification, WithApplication }
+// import org.specs2.mutable.Specification
+// import org.specs2.mock.Mockito
+// import play.api.test.{ FakeApplication, PlaySpecification, WithApplication }
 
-import scenarios.helpers.{ TestGlobal, DemoUser, TestUserService }
-import securesocial.core.providers.GoogleProvider
-import securesocial.core.{ IdentityProvider, EventListener, RuntimeEnvironment }
-import securesocial.core.services.{ HttpService, UserService, RoutesService }
-import org.specs2.matcher.Matcher
-//import play.api.libs.ws.{ WSRequest, WSRequestHolder, WSResponse }
-import scala.concurrent.Future
-import play.api.libs.json.Json
+// import scenarios.helpers.{ TestGlobal, DemoUser, TestUserService }
+// import securesocial.core.providers.GoogleProvider
+// import securesocial.core.{ IdentityProvider, EventListener, RuntimeEnvironment }
+// import securesocial.core.services.{ HttpService, UserService, RoutesService }
+// import org.specs2.matcher.Matcher
+// //import play.api.libs.ws.{ WSRequest, WSRequestHolder, WSResponse }
+// import scala.concurrent.Future
+// import play.api.libs.json.Json
 
-import scenarios.helpers.Api._
-import java.io.File
+// import scenarios.helpers.Api._
+// import java.io.File
 
-class GoogleLoginSpec extends PlaySpecification with Mockito {
+// class GoogleLoginSpec extends PlaySpecification with Mockito {
 
   /*def hasCode:Matcher[Map[String,Seq[String]]]=(map:Map[String,Seq[String]])=>map must contain("code" -> Seq("code"))
   "an application using secure social" should {
@@ -85,4 +85,4 @@ class GoogleLoginSpec extends PlaySpecification with Mockito {
     , "securesocial.google.scope"->"scope"
   )
 */
-}
+// }
